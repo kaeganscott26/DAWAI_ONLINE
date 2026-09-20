@@ -1,0 +1,48 @@
+{
+  "schema_version": "dawai_command_registry_v1",
+  "commands": [
+    {"id": "file.new_session", "label": "New Session", "domain": "file", "destructive": false, "shortcut": "Ctrl+N"},
+    {"id": "file.open_session", "label": "Open Session...", "domain": "file", "destructive": false, "shortcut": "Ctrl+Shift+O"},
+    {"id": "file.open_audio", "label": "Open Audio...", "domain": "file", "destructive": false, "shortcut": "Ctrl+O"},
+    {"id": "file.save_session", "label": "Save Session...", "domain": "file", "destructive": false, "shortcut": "Ctrl+S"},
+    {"id": "file.close_session", "label": "Close Session", "domain": "file", "destructive": false, "shortcut": "Ctrl+W"},
+    {"id": "file.exit", "label": "Exit", "domain": "file", "destructive": false, "shortcut": "Ctrl+Q"},
+
+    {"id": "edit.undo", "label": "Undo", "domain": "edit", "destructive": false, "shortcut": "Ctrl+Z"},
+    {"id": "edit.redo", "label": "Redo", "domain": "edit", "destructive": false, "shortcut": "Ctrl+Shift+Z|Ctrl+Y"},
+
+    {"id": "view.focus_constellation", "label": "Constellation Map", "domain": "view", "destructive": false, "shortcut": "F5"},
+    {"id": "view.recover_sync_grid", "label": "Sync Grid", "domain": "view", "destructive": false, "shortcut": "F7"},
+    {"id": "view.recover_orbit_mixer", "label": "Orbit Mixer", "domain": "view", "destructive": false, "shortcut": "F9"},
+    {"id": "view.recover_aifred_dock", "label": "AIFRED Dock", "domain": "view", "destructive": false, "shortcut": "F12|Ctrl+`"},
+    {"id": "view.recover_nebula_browser", "label": "Nebula Browser", "domain": "view", "destructive": false},
+    {"id": "view.reset_layout", "label": "Reset Layout", "domain": "view", "destructive": false, "shortcut": "Ctrl+Shift+0"},
+
+    {"id": "transport.play", "label": "Play", "domain": "transport", "destructive": false},
+    {"id": "transport.stop", "label": "Stop", "domain": "transport", "destructive": false},
+
+    {"id": "arrangement.create", "label": "Create Arrangement", "domain": "arrangement", "destructive": false},
+    {"id": "arrangement.duplicate", "label": "Duplicate Arrangement", "domain": "arrangement", "destructive": false},
+
+    {"id": "playlist.slice_at_playhead", "label": "Slice At Playhead", "domain": "playlist", "destructive": true},
+    {"id": "sync_grid.clear", "label": "Clear Sync Grid", "domain": "sync_grid", "destructive": true},
+
+    {"id": "mixer.add_channel", "label": "Add Channel", "domain": "mixer", "destructive": false, "shortcut": "Ctrl+Shift+A"},
+    {"id": "mixer.duplicate_channel", "label": "Duplicate Channel", "domain": "mixer", "destructive": false, "shortcut": "Ctrl+Shift+D"},
+    {"id": "mixer.delete_channel", "label": "Delete Channel", "domain": "mixer", "destructive": true, "shortcut": "Ctrl+Shift+Backspace"},
+    {"id": "mixer.move_channel_left", "label": "Move Channel Left", "domain": "mixer", "destructive": false, "shortcut": "Ctrl+Alt+Left"},
+    {"id": "mixer.move_channel_right", "label": "Move Channel Right", "domain": "mixer", "destructive": false, "shortcut": "Ctrl+Alt+Right"},
+    {"id": "mixer.insert_channel_before", "label": "Insert Channel Before", "domain": "mixer", "destructive": false, "shortcut": "Ctrl+Alt+Up"},
+    {"id": "mixer.insert_channel_after", "label": "Insert Channel After", "domain": "mixer", "destructive": false, "shortcut": "Ctrl+Alt+Down"},
+    {"id": "mixer.clear_channel", "label": "Clear Channel", "domain": "mixer", "destructive": true, "shortcut": "Ctrl+Alt+Backspace"},
+    {"id": "mixer.rename_channel", "label": "Rename Channel", "domain": "mixer", "destructive": false, "shortcut": "F2"},
+    {"id": "mixer.route_channel_to_master", "label": "Route Selected to Master", "domain": "mixer", "destructive": false, "shortcut": "Ctrl+Shift+M"},
+    {"id": "mixer.route_channel_to_bus", "label": "Route Selected to Bus...", "domain": "mixer", "destructive": false, "shortcut": "Ctrl+Shift+B"},
+
+    {"id": "sample_browser.load_to_playlist", "label": "Load Sample To Playlist", "domain": "sample_browser", "destructive": false},
+    {"id": "aifred.send_message", "label": "AIFRED Send Message", "domain": "aifred", "destructive": false},
+
+    {"id": "help.users_guide", "label": "Users Guide", "domain": "help", "destructive": false, "shortcut": "F1"},
+    {"id": "help.about", "label": "About DawAI", "domain": "help", "destructive": false}
+  ]
+}

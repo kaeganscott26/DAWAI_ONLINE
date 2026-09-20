@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dawai.local/schemas/command-registry.schema.json",
+  "title": "DawAI Command Registry",
+  "type": "object",
+  "required": ["schema_version", "commands"],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "dawai_command_registry_v1"
+    },
+    "commands": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "domain", "destructive"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_.-]+$"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "domain": {
+            "type": "string",
+            "enum": [
+              "file",
+              "edit",
+              "view",
+              "transport",
+              "arrangement",
+              "playlist",
+              "sync_grid",
+              "mixer",
+              "sample_browser",
+              "aifred",
+              "help",
+              "storefront",
+              "ops"
+            ]
+          },
+          "destructive": {
+            "type": "boolean"
+          },
+          "shortcut": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

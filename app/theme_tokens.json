@@ -1,0 +1,47 @@
+{
+  "schema_version": "dawai_theme_tokens_v1",
+  "spacing_scale": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24
+  },
+  "radius_scale": {
+    "sm": 4,
+    "md": 8,
+    "lg": 12
+  },
+  "typography_scale": {
+    "title": {"family": "Space Grotesk", "size": 22, "weight": 700},
+    "body": {"family": "Space Grotesk", "size": 13, "weight": 500},
+    "label": {"family": "Space Grotesk", "size": 12, "weight": 600},
+    "caption": {"family": "Space Grotesk", "size": 11, "weight": 500}
+  },
+  "themes": {
+    "dark_side": {
+      "window": "#0B1220",
+      "surface": "#0F1A2A",
+      "panel": "#111B2E",
+      "panel_alt": "#0E1626",
+      "text": "#E8F3FF",
+      "text_muted": "#9CB3C8",
+      "accent": "#49E6FF",
+      "accent_alt": "#98FF6A",
+      "danger": "#FF7A90",
+      "border": "#2A3D66"
+    },
+    "light_side": {
+      "window": "#E7EEF7",
+      "surface": "#DEE8F4",
+      "panel": "#D6E2F0",
+      "panel_alt": "#CEDCED",
+      "text": "#10233A",
+      "text_muted": "#425A72",
+      "accent": "#2F6DFF",
+      "accent_alt": "#2C9D75",
+      "danger": "#B84C66",
+      "border": "#9FB2CA"
+    }
+  }
+}

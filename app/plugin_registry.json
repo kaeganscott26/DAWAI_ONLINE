@@ -1,0 +1,19 @@
+{
+  "schema_version": "dawai_plugin_registry_v1",
+  "plugins": [
+    {"id": "digital_eq", "name": "Prism EQ", "type": "EQ", "builtin": true, "theme_locked": true, "description": "Transparent digital EQ."},
+    {"id": "ssl_eq", "name": "Aurora EQ", "type": "EQ", "builtin": true, "theme_locked": true, "description": "Console-inspired EQ."},
+    {"id": "pultec_eq", "name": "ValveGarden EQ", "type": "EQ", "builtin": true, "theme_locked": true, "description": "Passive tone shaping EQ."},
+    {"id": "bus_compressor", "name": "Orbit VCA Bus Comp", "type": "COMPRESSOR", "builtin": true, "theme_locked": true, "description": "Bus glue compressor."},
+    {"id": "fet_compressor", "name": "BFett Comp", "type": "COMPRESSOR", "builtin": true, "theme_locked": true, "description": "Fast FET-style compression."},
+    {"id": "optical_compressor", "name": "Halo Opto Comp", "type": "COMPRESSOR", "builtin": true, "theme_locked": true, "description": "Optical leveling compressor."},
+    {"id": "vari_mu_compressor", "name": "Crown Vari-Mu", "type": "COMPRESSOR", "builtin": true, "theme_locked": true, "description": "Vari-mu compression."},
+    {"id": "saturation", "name": "Nebula Saturator", "type": "SATURATION", "builtin": true, "theme_locked": true, "description": "Harmonic saturation."},
+    {"id": "mission_limiter", "name": "Mission Limiter", "type": "COMPRESSOR", "builtin": true, "theme_locked": true, "description": "Peak limiting."},
+    {"id": "mission_clipper", "name": "Mission Clipper", "type": "SATURATION", "builtin": true, "theme_locked": true, "description": "Clipping loudness tool."},
+    {"id": "nebula_tape", "name": "Nebula Tape", "type": "SATURATION", "builtin": true, "theme_locked": true, "description": "Tape tone shaping."},
+    {"id": "quantum_maximizer", "name": "Quantum Maximizer", "type": "COMPRESSOR", "builtin": true, "theme_locked": true, "description": "Loudness enhancement."},
+    {"id": "reverb", "name": "Aether Reverb", "type": "REVERB", "builtin": true, "theme_locked": true, "description": "Algorithmic reverb."},
+    {"id": "delay", "name": "Timelock Delay", "type": "DELAY", "builtin": true, "theme_locked": true, "description": "Stereo delay."}
+  ]
+}

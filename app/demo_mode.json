@@ -1,0 +1,13 @@
+{
+  "schema_version": "dawai_demo_mode_v1",
+  "enabled": false,
+  "profile": "v2_test_build",
+  "scenes": [
+    {
+      "id": "quick_mix_session",
+      "label": "Quick Mix Session",
+      "description": "Loads a representative project state for V2 demo playback and UI walkthrough."
+    }
+  ],
+  "notes": "Scaffolding for V2 test build demo mode."
+}
